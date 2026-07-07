@@ -1,6 +1,0 @@
-./dbconf.go
-./dialect.go
-./migrate.go
-./migration_go.go
-./migration_sql.go
-./util.go

@@ -1,7 +1,0 @@
-./charset.go
-./encoding.go
-./entity.go
-./header.go
-./message.go
-./multipart.go
-./writer.go
