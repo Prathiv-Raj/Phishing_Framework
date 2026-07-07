@@ -1,0 +1,11 @@
+[Unit]
+Description=abphish
+After=network.target
+[Service]
+Type=simple
+WorkingDirectory=/home/{{ abphish_user }}/abphish_deploy/
+ExecStart="/home/{{ abphish_user }}/abphish_deploy/abphish"
+User={{ abphish_user }}
+PIDFile="/home/{{ abphish_user }}/abphish_deploy/abphish.pid"
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+./campaign.go
+./group.go
+./imap.go
+./import.go
+./page.go
+./reset.go
+./response.go
+./server.go
+./smtp.go
+./template.go
+./user.go
+./util.go
+./webhook.go

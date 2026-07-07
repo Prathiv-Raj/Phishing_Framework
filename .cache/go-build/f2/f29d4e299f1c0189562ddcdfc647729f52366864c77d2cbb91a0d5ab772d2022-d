@@ -1,0 +1,16 @@
+./attachment.go
+./campaign.go
+./doc.go
+./email_request.go
+./group.go
+./imap.go
+./maillog.go
+./models.go
+./page.go
+./rbac.go
+./result.go
+./smtp.go
+./template.go
+./template_context.go
+./user.go
+./webhook.go

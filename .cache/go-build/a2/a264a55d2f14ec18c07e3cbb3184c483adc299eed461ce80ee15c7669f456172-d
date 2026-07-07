@@ -1,0 +1,8 @@
+./decoder.go
+./errors.go
+./mmap_unix.go
+./node.go
+./reader.go
+./reader_other.go
+./traverse.go
+./verifier.go

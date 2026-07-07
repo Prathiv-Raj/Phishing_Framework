@@ -1,0 +1,9 @@
+./authenticate.go
+./capability.go
+./expunge.go
+./fetch.go
+./list.go
+./responses.go
+./search.go
+./select.go
+./status.go

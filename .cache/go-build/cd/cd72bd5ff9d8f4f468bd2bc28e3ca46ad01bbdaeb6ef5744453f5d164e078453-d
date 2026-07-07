@@ -1,0 +1,13 @@
+./addons.go
+./binding.go
+./codecs.go
+./command.go
+./common.go
+./consts.go
+./init.go
+./mysql.go
+./packet.go
+./paramvalue.go
+./passwd.go
+./prepared.go
+./result.go

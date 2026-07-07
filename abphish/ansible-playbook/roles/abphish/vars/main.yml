@@ -1,0 +1,19 @@
+enable_ufw_firewall: true
+
+install_packages:
+  - postfix
+  - unzip
+  - libcap2-bin
+  - python-is-python3
+  - python3-pip
+
+hostname: abphish
+abphish_user: ubuntu
+postfix_hostname: abphish
+postfix_inet_interfaces: 127.0.0.1
+abphish_domain: abphish.local
+abphish_ssl_cert_path: /etc/ssl/private/abphish.pem
+abphish_csr_path: /etc/ssl/csr/abphish.csr
+abphish_crt_path: /etc/ssl/crt/abphish.crt
+# Required if changing /etc/hostname to something different.
+reboot_box: true
